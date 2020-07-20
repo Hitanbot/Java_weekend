@@ -13,6 +13,7 @@ public class GameTest {
     @Before
     public void before(){
         game = new Game();
+
         player1 = new Player("Matthew");
         player2 = new Player("Craig");
         game.addPlayer(player1);
@@ -34,6 +35,15 @@ public class GameTest {
     @Test
     public void canGetWinner(){
         game.dealCards();
-        assertEquals(player2, game.checkWinner());
+        assertEquals(player1, game.checkWinner());
+    }
+
+    @Test
+    public void canReturnCardsToDeck(){
+        game.dealCards();
+        game.addCardsBackToDeck();
+        assertEquals(0, player1.getHandSize());
+        assertEquals(52, game.getDeck().getCardsSize());
+
     }
 }

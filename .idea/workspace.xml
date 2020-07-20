@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a61b023a-b01b-4264-b126-58e5df271356" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DeckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Enums.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DeckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DeckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GameTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +55,6 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -39,17 +65,26 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager" selected="Application.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Runner" />
-      <module name="Enums" />
+      <module name="w11_d4_lab" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in w11_d4_lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w11_d4_lab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,16 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeckTest.dealRemovesCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Enums" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DeckTest" />
-      <option name="METHOD_NAME" value="dealRemovesCard" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Enums" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,11 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Enums" />
+    <configuration name="GameTest.canReturnCardsToDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w11_d4_lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="canReturnCardsToDeck" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,10 +120,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Runner" />
+        <item itemvalue="JUnit.All in w11_d4_lab" />
+        <item itemvalue="JUnit.GameTest.canReturnCardsToDeck" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.DeckTest" />
-        <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.DeckTest.dealRemovesCard" />
       </list>
     </recent_temporary>
   </component>
@@ -114,42 +140,80 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="291" y="69" key="#GameTest" timestamp="1594987162058">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="291" y="69" key="#GameTest/0.0.1440.900@0.0.1440.900" timestamp="1594987162058" />
+    <state x="370" y="69" key="#Runner" timestamp="1594980417814">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="69" key="#Runner/0.0.1440.900@0.0.1440.900" timestamp="1594980417814" />
     <state x="793" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1594904097057">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="793" y="220" key="#com.intellij.ide.util.MemberChooser/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594904097057" />
-    <state width="1358" height="245" key="GridCell.Tab.0.bottom" timestamp="1594906593718">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1595176956963">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595176956963" />
     <state width="1358" height="245" key="GridCell.Tab.0.bottom/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594906593718" />
-    <state width="1358" height="245" key="GridCell.Tab.0.center" timestamp="1594906593717">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1595176956961">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595176956961" />
     <state width="1358" height="245" key="GridCell.Tab.0.center/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594906593717" />
-    <state width="1358" height="245" key="GridCell.Tab.0.left" timestamp="1594906593716">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1595176956959">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595176956959" />
     <state width="1358" height="245" key="GridCell.Tab.0.left/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594906593716" />
-    <state width="1358" height="245" key="GridCell.Tab.0.right" timestamp="1594906593717">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1595176956962">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595176956962" />
     <state width="1358" height="245" key="GridCell.Tab.0.right/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594906593717" />
-    <state width="1358" height="303" key="GridCell.Tab.1.bottom" timestamp="1594905236279">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1595176864459">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595176864459" />
     <state width="1358" height="303" key="GridCell.Tab.1.bottom/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594905236279" />
-    <state width="1358" height="303" key="GridCell.Tab.1.center" timestamp="1594905236278">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1595176864458">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595176864458" />
     <state width="1358" height="303" key="GridCell.Tab.1.center/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594905236278" />
-    <state width="1358" height="303" key="GridCell.Tab.1.left" timestamp="1594905236277">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1595176864457">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595176864457" />
     <state width="1358" height="303" key="GridCell.Tab.1.left/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594905236277" />
-    <state width="1358" height="303" key="GridCell.Tab.1.right" timestamp="1594905236279">
-      <screen x="0" y="23" width="1680" height="961" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1595176864458">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595176864458" />
     <state width="1358" height="303" key="GridCell.Tab.1.right/0.23.1680.961/-1920.23.1920.1057@0.23.1680.961" timestamp="1594905236279" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Runner.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

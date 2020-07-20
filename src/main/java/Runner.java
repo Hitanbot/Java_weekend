@@ -3,12 +3,16 @@ import java.util.Scanner;
 
 public class Runner {
 
+    Game game = new Game();
+
     public static void main(String[] args) {
 
         String input = "";
-
+        Game game = new Game();
+        game.addDealer();
+        game.addPlayers();
         while(!input.equals("no")){
-            runGame();
+            runGame(game);
             System.out.println("Type 'No' to quit game. Press any other key to play again.");
             input = "";
             Scanner sc = new Scanner(System.in);
@@ -20,19 +24,16 @@ public class Runner {
 
     }
 
-    public static void runGame() {
-        Game game = new Game();
-        Player player1 = new Player("Craig");
-        Player player2 = new Player("Matthew");
-        game.addPlayer(player1);
-        game.addPlayer(player2);
+    public static void runGame(Game game) {
 
+        game.addCardsBackToDeck();
         game.shuffleDeck();
         game.dealCards();
+        game.dealCards();
+        game.callPlayersTurns();
         Player winner = game.checkWinner();
-        ArrayList<Card> winnerHand = winner.getHand();
-        System.out.println("The winner is " + winner.getName() + " with a " + winnerHand.get(0).getRank() + " of " + winnerHand.get(0).getSuit());
 
+        System.out.println(game.winnerAsString(winner));
 
     }
 }

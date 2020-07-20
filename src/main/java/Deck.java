@@ -33,9 +33,14 @@ public class Deck {
         return this.cards.remove(0);
     }
 
-    public void deal(Player player){
+    public Card deal(Player player){
         Card card = this.getFirstCard();
         player.addCard(card);
+        return card;
+    }
+
+    public void addCard(Card card){
+        cards.add(card);
     }
 
 }

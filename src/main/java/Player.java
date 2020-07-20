@@ -4,10 +4,12 @@ public class Player {
 
     private ArrayList<Card> hand;
     private String name;
+    private Boolean hasAce;
 
     public Player(String name) {
         this.hand = new ArrayList<Card>();
         this.name = name;
+        this.hasAce = false;
     }
 
     public String getName() {
@@ -22,15 +24,29 @@ public class Player {
         return hand.size();
     }
 
-    public int getMaxCardValue(){
-        int max = 0;
+    public int getCardsValue(){
+        int total = 0;
+        hasAce = false;
         for(int i = 0; i < hand.size(); i++){
-            max = hand.get(i).getRank().getValue();
+            if (hand.get(i).getRank().equals(RankType.ACE)){
+                hasAce=true;
+            }
+            total += hand.get(i).getRank().getValue();
         }
-        return max;
+        if (hasAce && total+10<22){
+            total+=10;
+        }
+        return total;
     }
 
     public ArrayList<Card> getHand(){
         return hand;
     }
+
+
+    public Card takeFirstCard(){
+        return this.hand.remove(0);
+    }
+
+
 }
